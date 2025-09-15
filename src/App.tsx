@@ -1,4 +1,3 @@
-
 import React, { useState, useRef, useCallback, useEffect } from 'react';
 import { AppStatus } from './types';
 import { updateTranscription } from './services/geminiService';
@@ -6,7 +5,7 @@ import HandIcon from './components/HandIcon';
 import { useHandLandmarker } from './hooks/useHandLandmarker';
 import { DrawingUtils, HandLandmarker } from '@mediapipe/tasks-vision';
 import ASLAlphabetGuide from './components/ASLAlphabetGuide';
-import SASLAlphabetGuide from "./src/components/SASLAlphabetGuide";
+import SASLAlphabetGuide from "./components/SASLAlphabetGuide";
 import BookOpenIcon from './components/BookOpenIcon';
 import DownloadIcon from './components/DownloadIcon';
 
