@@ -6,6 +6,7 @@ import HandIcon from './components/HandIcon';
 import { useHandLandmarker } from './hooks/useHandLandmarker';
 import { DrawingUtils, HandLandmarker } from '@mediapipe/tasks-vision';
 import ASLAlphabetGuide from './components/ASLAlphabetGuide';
+import SASLAlphabetGuide from "./src/components/SASLAlphabetGuide";
 import BookOpenIcon from './components/BookOpenIcon';
 import DownloadIcon from './components/DownloadIcon';
 
